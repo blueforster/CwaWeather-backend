@@ -142,7 +142,7 @@ app.get("/api/health", (req, res) => {
 });
 
 // 取得台北天氣預報
-app.get("/api/weather/kaohsiung", getTaipeiWeather);
+app.get("/api/weather/taipei", getTaipeiWeather);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
