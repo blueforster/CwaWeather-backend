@@ -105,7 +105,7 @@ GET /api/weather/taipei
 {
   "success": true,
   "data": {
-    "city": "台北市",
+    "city": "臺北市",
     "updateTime": "資料更新時間說明",
     "forecasts": [
       {
